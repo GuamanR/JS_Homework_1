@@ -43,5 +43,53 @@ header > h1 {
 #comp_label{
     position: absolute;
     top: 15px;
-    left: 170px;
+    left: 175px;
+}
+.hand{
+    height: 60px;
+    width: 60px;
+}
+.result{
+    font-size: 40px;
+    color: white;
+}
+.result > p{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.choices{
+    margin-top: 50px;
+    text-align: center;
+}
+.choice{
+    /* this makes them display inline with eachother */
+    display: inline-block;
+    border: 4px solid white;
+    padding: 10px;
+    margin: 0px 20px;
+    border-radius: 50%;
+    
+    
+}
+.choice:hover{
+    /* This says when the cursor hovers over the "choice", the cursor will turn into a pointer */
+    cursor: pointer;
+    background-color: green;
+    /* This was originally placed in .choice, but it would cause the elements to slowly transition in instead of just the color. */
+    transition: all .3s ease;
+}
+#cut {
+    transform: rotate(-90deg) ;
+}
+
+.Action_Message{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
 }

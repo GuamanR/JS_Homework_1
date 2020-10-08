@@ -19,7 +19,7 @@ console.log("You Failed, try again next time")
 var grade=number(prompt("What grade did you make?"))
 switch (grade){
 
-case >=90:
+case >= 90:
     
 console.log("You got an A")
 
